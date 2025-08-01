@@ -9,3 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color:purple;  
+}
+.content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:120px;
+    color: green;
+}
+.actions{
+    
+}
+/* background-color: red */
