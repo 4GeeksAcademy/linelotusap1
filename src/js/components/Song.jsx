@@ -1,13 +1,14 @@
 import React from "react";
 
-const Song =({song, setSelectedSong}) => {
+const Song =({song, selectSong}) => {
     return(
-        <li className= "song" onClick={() => setSelectedSong(song.id -1)}>
-        {song.name}
+        <ul className= "song border border-dark" onClick={() => selectSong(song.id -1)}>
+            <div>
+        <h1>{song.name}</h1> </div>
         
-        </li>
+        </ul>
     )
 
 }
 
-export default Song
+export default Song;

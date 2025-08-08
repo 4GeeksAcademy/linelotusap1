@@ -13,17 +13,17 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color:purple;  
+    justify-content: center; 
 }
 .content {
-    width: 100vw;
+    width: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding:120px;
-    color: green;
+    align-items: auto;
 }
 .actions{
     
+
 }
-/* background-color: red */
